@@ -5,26 +5,49 @@ public class MusicPlayer : MonoBehaviour {
 
 	static MusicPlayer instance = null;
 	
-	void Awake(){
-		Debug.Log ("Music Player Awake " + GetInstanceID());
-		if(instance != null) {
+	public AudioClip startClip;
+	public AudioClip gameClip;
+	public AudioClip endClip;
+	
+	private AudioSource music;
+	
+	
+	void Start(){
+		if(instance != null && instance != this) {
 			Destroy(gameObject);
 			Debug.Log ("Duplicate music player " + GetInstanceID() + " self destructing");
 		} else {
 			instance = this;
 			GameObject.DontDestroyOnLoad(gameObject);
+			music = GetComponent<AudioSource>(); 
+			music.clip = startClip;
+			music.loop = true;
+			music.Play();
+		
 		}
 	}
 	
-	// Use this for initialization
-	void Start () {
-		Debug.Log ("Music Player Start " + GetInstanceID());
-
+	void OnLevelWasLoaded(int level){
+		Debug.Log ("MusicPlayer Loaded level " + level);
+		music.Stop ();
+ 
+		switch(level){
+			case 0:
+				music.clip = startClip;
+				break;
+			case 1: 
+				music.clip = gameClip;
+				break;  
+			case 2: 
+				music.clip = endClip;
+				break;
+			default:
+				goto case 0;
+		}
 		
+		music.loop = true;
+		music.Play(); 
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
