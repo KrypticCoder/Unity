@@ -3,13 +3,17 @@ using System.Collections;
 
 public class Health : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	public float health;
 	
+	public void DealDamage(float damage){
+		health -= damage;
+		if(health <= 0){
+			DestroyObject();
+		}
+		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	public void DestroyObject(){
+		Destroy (gameObject);
 	}
 }

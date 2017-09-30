@@ -22,11 +22,12 @@ public class Lizard : MonoBehaviour {
 		
 		GameObject obj = collider.gameObject;
 		
+		// return if not colliding with Defender 
 		if(!obj.GetComponent<Defender>()){
 			return;
 		}
 		
-		
+		// call attack animation
 		animator.SetBool ("isAttacking", true);
 		attacker.Attack (obj);
 	}

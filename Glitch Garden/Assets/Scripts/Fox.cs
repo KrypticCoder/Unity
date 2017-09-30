@@ -23,12 +23,16 @@ public class Fox : MonoBehaviour {
 		
 		GameObject obj = collider.gameObject;
 		
+		// return if not colliding with Defender 
 		if(!obj.GetComponent<Defender>()){
 			return;
 		}
 		
+		// call jump animation if colliding with wall
 		if(obj.GetComponent<Stone>()){
 			animator.SetTrigger ("jump trigger");
+			
+		// else call attack animation
 		} else {
 			animator.SetBool ("isAttacking", true);
 			attacker.Attack (obj);
