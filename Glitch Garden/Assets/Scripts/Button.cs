@@ -26,6 +26,7 @@ public class Button : MonoBehaviour {
 	}
 	
 	void OnMouseDown(){
+	
 			
 		foreach(Button thisButton in buttons){
 			thisButton.GetComponent<SpriteRenderer>().color = Color.black;

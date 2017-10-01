@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 
+	public float difficulty = 1f;
+
 	public GameObject[] attackerPrefabArray;
 	
 	// Use this for initialization
@@ -32,7 +34,7 @@ public class Spawner : MonoBehaviour {
 		float threshold = spawnsPerSecond * Time.deltaTime / 5;
 		
 		
-		return Random.value < threshold;
+		return Random.value < (difficulty * threshold);
 		
 		
 	}

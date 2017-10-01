@@ -20,11 +20,6 @@ public class DefenderSpawner : MonoBehaviour {
 
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-	
 	void OnMouseDown(){
 	
 		if(Button.selectedDefender){
