@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class PinSetter : MonoBehaviour {
 
+	public float distanceToRaise = 50f;
 	public int lastStandingCount = -1;
 	public Text standingDisplay;
-	public float distanceToRaise = 40f;
+	public GameObject pinSet;
 
 	private float lastChangeTime;
 	private bool ballEnteredBox = false;
@@ -29,24 +30,24 @@ public class PinSetter : MonoBehaviour {
 
 	public void RaisePins(){
 		// Raise standing pins by distanceToRaise
-		Debug.Log("raising pins");
 
 		foreach(Pin pin in FindObjectsOfType<Pin>()){
-			if(pin.IsStanding()){
-				pin.GetComponent<Rigidbody>().useGravity = false;
-				pin.gameObject.transform.Translate(new Vector3(0, distanceToRaise, 0));
-			}
+			pin.RaiseIfStanding();
 		} 
 	}
 
 	public void LowerPins(){
 		// Lower raised pins
-		Debug.Log("lowering pins");
+
+		foreach(Pin pin in FindObjectsOfType<Pin>()){
+			pin.Lower();
+		} 
 	}
 
 	public void RenewPins(){
 		// Renew pins
 		Debug.Log("renewing pins");
+		Instantiate(pinSet, new Vector3(0, Pin.distanceToRaise, 1829), Quaternion.identity);
 	}
 
 	void CheckStanding(){
