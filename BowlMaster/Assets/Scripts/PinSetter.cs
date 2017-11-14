@@ -5,32 +5,26 @@ using UnityEngine.UI;
 
 public class PinSetter : MonoBehaviour {
 
-	public float distanceToRaise = 50f;
-	public int lastStandingCount = -1;
-	public Text standingDisplay;
 	public GameObject pinSet;
 
-	private float lastChangeTime;
-	private bool ballEnteredBox = false;
-	private Ball ball;
+
+	private Animator animator;
+	private PinCounter pinCounter;
+
 
 	// Use this for initialization
 	void Start () {
-		ball = FindObjectOfType<Ball>();
+		animator = GetComponent<Animator>();
+		pinCounter = FindObjectOfType<PinCounter>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		standingDisplay.text = CountStanding().ToString();
 
-		if(ballEnteredBox){
-			CheckStanding();
-		}
 	}
 
 	public void RaisePins(){
 		// Raise standing pins by distanceToRaise
-
 		foreach(Pin pin in FindObjectsOfType<Pin>()){
 			pin.RaiseIfStanding();
 		} 
@@ -38,7 +32,6 @@ public class PinSetter : MonoBehaviour {
 
 	public void LowerPins(){
 		// Lower raised pins
-
 		foreach(Pin pin in FindObjectsOfType<Pin>()){
 			pin.Lower();
 		} 
@@ -46,62 +39,22 @@ public class PinSetter : MonoBehaviour {
 
 	public void RenewPins(){
 		// Renew pins
-		Debug.Log("renewing pins");
 		Instantiate(pinSet, new Vector3(0, Pin.distanceToRaise, 1829), Quaternion.identity);
 	}
 
-	void CheckStanding(){
-		// update the lastStandingCount
-
-
-		int currentStanding = CountStanding();
-
-		if(currentStanding != lastStandingCount){
-			lastChangeTime = Time.time;
-			lastStandingCount = currentStanding;
-			return;
-		}
-
-		float settleTime = 3f;	// how long to wait to consider pins have settled
-
-
-		if(Time.time - lastChangeTime > settleTime){
-			PinsHaveSettled();
+	public void performAction(ActionMaster.Action action){
+		switch(action){
+			case ActionMaster.Action.Tidy:
+				animator.SetTrigger("tidyTrigger");
+				break;
+			case ActionMaster.Action.EndTurn:
+			case ActionMaster.Action.Reset:
+				animator.SetTrigger("resetTrigger");
+				pinCounter.Reset();
+				break;
+			case ActionMaster.Action.EndGame:
+				throw new UnityException("Don't know how to handle EndGame");
 		}
 	}
-
-	void PinsHaveSettled(){
-		ball.Reset();
-		lastStandingCount = -1;		// pins have settled and ball not back in box
-		ballEnteredBox = false;
-		standingDisplay.color = Color.green;
-	}
-
-	int CountStanding(){
-		int standing = 0;
-		foreach(Pin pin in GameObject.FindObjectsOfType<Pin>()){
-			if(pin.IsStanding()){
-				standing++;
-			}
-		}
-		return standing;
-	}
-
-	void OnTriggerEnter(Collider collider){
-		GameObject thingHit = collider.gameObject;
-		if(thingHit.GetComponent<Ball>()){
-			standingDisplay.color = Color.red;
-			ballEnteredBox = true;
-		}
-	}
-
-	void OnTriggerExit(Collider collider){
-		GameObject thingLeft = collider.gameObject;
-
-		if(thingLeft.GetComponentInParent<Pin>()){
-			Destroy(thingLeft);
-		}
-	}
-
 
 }
