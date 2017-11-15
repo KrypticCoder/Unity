@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 304
     height: 379
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -291,7 +291,7 @@ MonoBehaviour:
     width: 378
     height: 629
   m_IsSceneBased: 0
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
     m_Window: {fileID: 12}
     newResultList:
@@ -304,28 +304,6 @@ MonoBehaviour:
       output: 
       stacktrace: 
       notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[/Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
-      name: Assembly-CSharp.dll
-      fullName: /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp.dll
-      resultStatus: 2
-      duration: 0
-      messages: Has no TestFixtures
-      output: 
-      stacktrace: 
-      notRunnable: 1
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[/Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-UnityScript.dll][suite]'
-      name: Assembly-UnityScript.dll
-      fullName: /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-UnityScript.dll
-      resultStatus: 2
-      duration: 0
-      messages: Has no TestFixtures
-      output: 
-      stacktrace: 
-      notRunnable: 1
       ignoredOrSkipped: 0
       description: 
     m_ResultText: 
@@ -363,602 +341,6 @@ MonoBehaviour:
       messages: 
       output: 
       stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[/Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
-      name: Assembly-CSharp-Editor.dll
-      fullName: /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 2
-      duration: 0.85598
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest][suite]'
-      name: ActionMasterTest
-      fullName: ActionMasterTest
-      resultStatus: 1
-      duration: 0.285853
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T00PassingTest]'
-      name: T00PassingTest
-      fullName: ActionMasterTest.T00PassingTest
-      resultStatus: 1
-      duration: 0.008124
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T01OneStrikeReturnsEndTurn]'
-      name: T01OneStrikeReturnsEndTurn
-      fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
-      resultStatus: 1
-      duration: 0.007804
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T02Bowl8ReturnsTidy]'
-      name: T02Bowl8ReturnsTidy
-      fullName: ActionMasterTest.T02Bowl8ReturnsTidy
-      resultStatus: 1
-      duration: 0.008121
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T03Bowl2Then8ReturnsEndTurn]'
-      name: T03Bowl2Then8ReturnsEndTurn
-      fullName: ActionMasterTest.T03Bowl2Then8ReturnsEndTurn
-      resultStatus: 1
-      duration: 0.008196
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T05CheckResetAtStrikeInLastFrame]'
-      name: T05CheckResetAtStrikeInLastFrame
-      fullName: ActionMasterTest.T05CheckResetAtStrikeInLastFrame
-      resultStatus: 1
-      duration: 0.00844
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T06CheckResetAtSpareInLastFrame]'
-      name: T06CheckResetAtSpareInLastFrame
-      fullName: ActionMasterTest.T06CheckResetAtSpareInLastFrame
-      resultStatus: 1
-      duration: 0.008712
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T07YoutubeRollsInEndGame]'
-      name: T07YoutubeRollsInEndGame
-      fullName: ActionMasterTest.T07YoutubeRollsInEndGame
-      resultStatus: 1
-      duration: 0.007852
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T08GameEndsAtBowl20]'
-      name: T08GameEndsAtBowl20
-      fullName: ActionMasterTest.T08GameEndsAtBowl20
-      resultStatus: 1
-      duration: 0.008301
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T09GameEndsAtSpareAndStrikeInLastFrame]'
-      name: T09GameEndsAtSpareAndStrikeInLastFrame
-      fullName: ActionMasterTest.T09GameEndsAtSpareAndStrikeInLastFrame
-      resultStatus: 1
-      duration: 0.00794
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T09GameEndsAtTurkeyInLastFrame]'
-      name: T09GameEndsAtTurkeyInLastFrame
-      fullName: ActionMasterTest.T09GameEndsAtTurkeyInLastFrame
-      resultStatus: 1
-      duration: 0.007723
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T10BowlStrikeThen5InLastFrame]'
-      name: T10BowlStrikeThen5InLastFrame
-      fullName: ActionMasterTest.T10BowlStrikeThen5InLastFrame
-      resultStatus: 1
-      duration: 0.008338
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T11BowlStrikeThenGutterInLastFrame]'
-      name: T11BowlStrikeThenGutterInLastFrame
-      fullName: ActionMasterTest.T11BowlStrikeThenGutterInLastFrame
-      resultStatus: 1
-      duration: 0.007816
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T12BowlGutterThenStrikeNOTInLastFrame]'
-      name: T12BowlGutterThenStrikeNOTInLastFrame
-      fullName: ActionMasterTest.T12BowlGutterThenStrikeNOTInLastFrame
-      resultStatus: 1
-      duration: 0.008379
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ActionMasterTest.T13ZeroOneReturnsEndTurn]'
-      name: T13ZeroOneReturnsEndTurn
-      fullName: ActionMasterTest.T13ZeroOneReturnsEndTurn
-      resultStatus: 1
-      duration: 0.008219
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest][suite]'
-      name: ScoreMasterTest
-      fullName: ScoreMasterTest
-      resultStatus: 2
-      duration: 0.535517
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T00PassingTest]'
-      name: T00PassingTest
-      fullName: ScoreMasterTest.T00PassingTest
-      resultStatus: 1
-      duration: 0.003642
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T01Bowl23]'
-      name: T01Bowl23
-      fullName: ScoreMasterTest.T01Bowl23
-      resultStatus: 2
-      duration: 0.003785
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        1 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T01Bowl23 () [0x0002c] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:19
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T02Bowl234]'
-      name: T02Bowl234
-      fullName: ScoreMasterTest.T02Bowl234
-      resultStatus: 2
-      duration: 0.004405
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        1 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T02Bowl234 () [0x0002f] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:26
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T03Bowl2345]'
-      name: T03Bowl2345
-      fullName: ScoreMasterTest.T03Bowl2345
-      resultStatus: 2
-      duration: 0.004516
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        2 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5, 9 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T03Bowl2345 () [0x00034] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:33
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T04Bowl23456]'
-      name: T04Bowl23456
-      fullName: ScoreMasterTest.T04Bowl23456
-      resultStatus: 2
-      duration: 0.004584
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        2 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5, 9 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T04Bowl23456 () [0x00034] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:40
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T05Bowl234561]'
-      name: T05Bowl234561
-      fullName: ScoreMasterTest.T05Bowl234561
-      resultStatus: 2
-      duration: 0.00462
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        3 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5, 9, 7 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T05Bowl234561 () [0x00036] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:47
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T06Bowl2345612]'
-      name: T06Bowl2345612
-      fullName: ScoreMasterTest.T06Bowl2345612
-      resultStatus: 2
-      duration: 0.004402
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        3 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 5, 9, 7 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T06Bowl2345612 () [0x00036] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:54
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T07BowlX1]'
-      name: T07BowlX1
-      fullName: ScoreMasterTest.T07BowlX1
-      resultStatus: 1
-      duration: 0.004148
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T08Bowl19]'
-      name: T08Bowl19
-      fullName: ScoreMasterTest.T08Bowl19
-      resultStatus: 1
-      duration: 0.004177
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T09Bowl123455]'
-      name: T09Bowl123455
-      fullName: ScoreMasterTest.T09Bowl123455
-      resultStatus: 2
-      duration: 0.004302
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        2 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 3, 7 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T09Bowl123455 () [0x00033] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:75
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T10SpareBonus]'
-      name: T10SpareBonus
-      fullName: ScoreMasterTest.T10SpareBonus
-      resultStatus: 2
-      duration: 0.004203
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        4 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 3, 8, 13... >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T10SpareBonus () [0x00036] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:82
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T11SpareBonus2]'
-      name: T11SpareBonus2
-      fullName: ScoreMasterTest.T11SpareBonus2
-      resultStatus: 2
-      duration: 0.003935
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        6 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 3, 8, 13... >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T11SpareBonus2 () [0x00037] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:89
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T12StrikeBonus]'
-      name: T12StrikeBonus
-      fullName: ScoreMasterTest.T12StrikeBonus
-      resultStatus: 2
-      duration: 0.004206
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        2 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 17, 7 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T12StrikeBonus () [0x00034] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:96
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T13StrikeBonus3]'
-      name: T13StrikeBonus3
-      fullName: ScoreMasterTest.T13StrikeBonus3
-      resultStatus: 2
-      duration: 0.004565
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        7 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 3, 7, 9... >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T13StrikeBonus3 () [0x00037] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:103
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T14MultiStrikes]'
-      name: T14MultiStrikes
-      fullName: ScoreMasterTest.T14MultiStrikes
-      resultStatus: 2
-      duration: 0.00407
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        3 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 22, 15, 5 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T14MultiStrikes () [0x00036] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:110
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T15MultiStrikes3]'
-      name: T15MultiStrikes3
-      fullName: ScoreMasterTest.T15MultiStrikes3
-      resultStatus: 2
-      duration: 0.004337
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        5 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 22, 15, 5... >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T15MultiStrikes3 () [0x00036] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:117
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T16TestGutterGame]'
-      name: T16TestGutterGame
-      fullName: ScoreMasterTest.T16TestGutterGame
-      resultStatus: 2
-      duration: 0.004427
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        20 elements\n  Values differ at index [10]\n  Extra:    < 0, 0, 0... >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T16TestGutterGame () [0x00022] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:124
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T17TestAllOnes]'
-      name: T17TestAllOnes
-      fullName: ScoreMasterTest.T17TestAllOnes
-      resultStatus: 2
-      duration: 0.003833
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        20 elements\n  Values differ at index [0]\n  Expected: 2\n  But was:  1\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T17TestAllOnes () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:131
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T18TestAllStrikes]'
-      name: T18TestAllStrikes
-      fullName: ScoreMasterTest.T18TestAllStrikes
-      resultStatus: 2
-      duration: 0.004849
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        12 elements\n  Values differ at index [0]\n  Expected: 30\n  But was:  10\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T18TestAllStrikes () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:138
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T19TestImmediateStrikeBonus]'
-      name: T19TestImmediateStrikeBonus
-      fullName: ScoreMasterTest.T19TestImmediateStrikeBonus
-      resultStatus: 2
-      duration: 0.004152
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        1 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        0 elements\n  Values differ at index [0]\n  Missing:  < 13 >"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T19TestImmediateStrikeBonus () [0x00030] in
-        /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:145
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T20SpareInLastFrame]'
-      name: T20SpareInLastFrame
-      fullName: ScoreMasterTest.T20SpareInLastFrame
-      resultStatus: 2
-      duration: 0.003995
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        21 elements\n  Values differ at index [0]\n  Expected: 2\n  But was:  1\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T20SpareInLastFrame () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:152
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.T21StrikeInLastFrame]'
-      name: T21StrikeInLastFrame
-      fullName: ScoreMasterTest.T21StrikeInLastFrame
-      resultStatus: 2
-      duration: 0.004525
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        21 elements\n  Values differ at index [0]\n  Expected: 2\n  But was:  1\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.T21StrikeInLastFrame () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:159
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG02GoldenCopyA]'
-      name: TG02GoldenCopyA
-      fullName: ScoreMasterTest.TG02GoldenCopyA
-      resultStatus: 2
-      duration: 0.00443
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        17 elements\n  Values differ at index [0]\n  Expected: 20\n  But was:  10\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG02GoldenCopyA () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:168
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG03GoldenCopyB1of3]'
-      name: TG03GoldenCopyB1of3
-      fullName: ScoreMasterTest.TG03GoldenCopyB1of3
-      resultStatus: 2
-      duration: 0.004115
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        19 elements\n  Values differ at index [0]\n  Expected: 20\n  But was:  10\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG03GoldenCopyB1of3 () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:177
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG03GoldenCopyB2of3]'
-      name: TG03GoldenCopyB2of3
-      fullName: ScoreMasterTest.TG03GoldenCopyB2of3
-      resultStatus: 2
-      duration: 0.004367
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        18 elements\n  Values differ at index [0]\n  Expected: 18\n  But was:  8\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG03GoldenCopyB2of3 () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:186
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG03GoldenCopyB3of3]'
-      name: TG03GoldenCopyB3of3
-      fullName: ScoreMasterTest.TG03GoldenCopyB3of3
-      resultStatus: 2
-      duration: 0.004255
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        17 elements\n  Values differ at index [0]\n  Expected: 29\n  But was:  10\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG03GoldenCopyB3of3 () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:195
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG03GoldenCopyC1of3]'
-      name: TG03GoldenCopyC1of3
-      fullName: ScoreMasterTest.TG03GoldenCopyC1of3
-      resultStatus: 2
-      duration: 0.00472
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        15 elements\n  Values differ at index [0]\n  Expected: 9\n  But was:  7\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG03GoldenCopyC1of3 () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:204
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-    - id: '[Assembly-CSharp-Editor.dll][ScoreMasterTest.TG03GoldenCopyC2of3]'
-      name: TG03GoldenCopyC2of3
-      fullName: ScoreMasterTest.TG03GoldenCopyC2of3
-      resultStatus: 2
-      duration: 0.004079
-      messages: "  Expected is <System.Collections.Generic.List`1[System.Int32]> with
-        10 elements, actual is <System.Collections.Generic.List`1[System.Int32]> with
-        13 elements\n  Values differ at index [0]\n  Expected: 30\n  But was:  10\n"
-      output: 
-      stacktrace: 'at ScoreMasterTest.TG03GoldenCopyC2of3 () [0x00038] in /Users/Dimitar/Documents/REPOS/Unity/BowlMaster/Assets/Editor/ScoreMasterTest.cs:213
-
-'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1025,10 +407,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -148
-    m_HBaseRangeMax: 148
-    m_VBaseRangeMin: -85.25
-    m_VBaseRangeMax: 85.25
+    m_HBaseRangeMin: -296
+    m_HBaseRangeMax: 296
+    m_VBaseRangeMin: -170.5
+    m_VBaseRangeMax: 170.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1047,7 +429,7 @@ MonoBehaviour:
       y: 17
       width: 592
       height: 341
-    m_Scale: {x: 2, y: 2}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 296, y: 170.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1055,15 +437,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -148
-      y: -85.25
-      width: 296
-      height: 170.5
+      x: -296
+      y: -170.5
+      width: 592
+      height: 341
     m_MinimalGUI: 1
-  m_defaultScale: 2
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1184, y: 716}
+  m_LastWindowPixelSize: {x: 592, y: 358}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -1095,9 +477,9 @@ MonoBehaviour:
     height: 358
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc2e0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 3062ffffc268ffff9677ffff18fcffff1afcffff00000000ba2a0000
+    m_SelectedIDs: 5ef0ffff
+    m_LastClickedID: -4002
+    m_ExpandedIDs: 5ef0ffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1115,7 +497,8 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
-  m_ExpandedScenes: []
+  m_ExpandedScenes:
+  - InitTestScene636462687495292170
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -1180,9 +563,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.020917224, y: 0.5718633, z: -0.0145879, w: -0.8199525}
   m_Size:
-    m_Target: 109.63347
+    m_Target: 430.4477
     speed: 2
-    m_Value: 109.63347
+    m_Value: 430.4477
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1315,9 +698,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 123}
-    m_SelectedIDs: 94290000
-    m_LastClickedID: 10644
-    m_ExpandedIDs: 0000000010270000a8270000ea270000fc27000000280000302900004a2900007e290000d42b0000d62b0000d82b000000ca9a3bffffff7f
+    m_SelectedIDs: 9c290000
+    m_LastClickedID: 10652
+    m_ExpandedIDs: 0000000018270000b0270000f227000004280000082800003829000052290000862900007e2b0000802b0000822b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1345,7 +728,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000010270000ea270000fc27000000280000ce280000302900004a2900007e290000d42b0000d62b0000d82b0000
+    m_ExpandedIDs: 0000000018270000b0270000f227000004280000082800003829000052290000862900007e2b0000802b0000822b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1372,7 +755,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 08260000ee22fbffd226000010270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
