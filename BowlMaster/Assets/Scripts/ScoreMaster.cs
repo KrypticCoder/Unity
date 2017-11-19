@@ -40,12 +40,6 @@ public class ScoreMaster {
 			}
 		}
 
-		string s = "frames = ";
-		foreach(int frame in frames){
-			s += frame.ToString();
-		}
-		Debug.Log(s);
-
 		return frames;
 	}
 
